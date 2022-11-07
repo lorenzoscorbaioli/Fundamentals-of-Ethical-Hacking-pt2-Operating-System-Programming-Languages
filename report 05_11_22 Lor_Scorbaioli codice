@@ -101,21 +101,21 @@ void dividi ()
 
 {
 
-        int  a,b = 0;
+        float  a,b = 0;
 
         printf ("Inserisci il numeratore:");
 
-        scanf ("%d", &a);
+        scanf ("%f", &a);
 
         printf ("Inserisci il denumeratore:");
 
-        scanf ("%d", &b);
+        scanf ("%f", &b);
 //ho messo questo if per evitare che l'utente divida per 0
 
         if ( b!=0){
-        int divisione = a / b;
+        float divisione = a / b;
 
-        printf ("La divisione tra %d e %d e': %d", a,b,divisione);
+        printf ("La divisione tra %f e %f e': %f", a,b,divisione);
         }
 
         else{
